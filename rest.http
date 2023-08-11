@@ -1,0 +1,37 @@
+### get list of employee
+GET  http://localhost:3000/employees
+
+
+### Create a employee
+POST http://localhost:3000/employees
+Content-Type: application/json
+
+{
+  "name": "prudhvi kumar banki",
+  "role": "Sr.Mobile App developer",
+  "age":31,
+  "dateofjoin":"10-MAR-2019"
+
+}
+
+### GET a product by id
+GET http://localhost:3000/employees/64b8e6209c0f21f6551890b0
+
+### Update a product by id
+PATCH  http://localhost:3000/employees/64ba4a861ad8b22a19ba4c9a
+Content-Type: application/json
+
+{
+  "role": "Sr.iOS App developer",
+  "dateofjoin":"10-SEP-2021"
+}
+
+
+### Delete a product by id
+DELETE  http://localhost:3000/employees/64b8e6209c0f21f6551890b0
+
+### get image file
+GET http://localhost:3000/employees/photos/1689951546441-employee_photo-1.png
+Content-Type: image/*
+
+

@@ -1,12 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
-const { MongoClient } = require('mongodb');
-const { GridFSBucket } = require('mongodb');
 
 const conn = mongoose.connection;
 let photoBucket;
-const MONGODB_URI = 'mongodb+srv://bankiprudhviapp:pk143@cluster0.hv4xtww.mongodb.net/employpeeDB';
 
 const Empyployee = require('../Models/employee');
 conn.once('open', () => {

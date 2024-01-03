@@ -7,10 +7,10 @@ POST http://localhost:3000/employees
 Content-Type: application/json
 
 {
-  "name": "prudhvi kumar banki",
-  "role": "Sr.Mobile App developer",
+  "name": "Mani kumar V",
+  "role": "Sr App developer",
   "age":31,
-  "dateofjoin":"10-MAR-2019"
+  "dateofjoin":"10-MAR-2018"
 
 }
 

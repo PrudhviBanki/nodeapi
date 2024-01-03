@@ -2,9 +2,11 @@
   "name": "employeapi",
   "version": "1.0.0",
   "description": "employee information api system",
-  "main": "app.js",
+  "main": "functions/api.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "netlify:dev": "netlify dev",
+    "netlify:build": "npm run build && netlify build",
+    "start": "nodemon functions/api.js"
   },
   "author": "prudhvi",
   "license": "ISC",

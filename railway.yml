@@ -6,7 +6,7 @@ services:
 environments:
   production:
     secrets:
-      MONGODB_URI: mongodb+srv://cluster0.hv4xtww.mongodb.net/
+      MONGODB_URI: mongodb+srv://bankiprudhviapp:pk143@cluster0.hv4xtww.mongodb.net/employpeeDB
 
 buildCommand: yarn install
 startCommand: yarn start
